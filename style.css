@@ -1,0 +1,77 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url(../fonts/Montserrat/static/Montserrat-Regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Montserrat-Bold';
+    src: url(../fonts/Montserrat/static/Montserrat-Bold.ttf);
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'poopins';
+    src: url(../fonts/Poppins/Poppins-Regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+  }
+
+:root{
+    --primary-color: #057a8d;
+    --secondary-color: #f1c111;
+    --white-color: #ffffff;
+    --dark-color: #171819;
+    --project-bg: #f0f8ff;
+    --menu-bg: #0c8195;
+
+    --title-font-family: 'Monserrat-Bold', sans-serif;
+    --reguler-font-family: 'Montserrat', sans-serif;
+    --menu-font-family: 'poopins', sans-serif;
+}
+
+body{
+    background-image: url(bg-image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+}
+
+h1{
+    color: #f0f8ff;
+    margin-top: 0;
+    font-family: var(--title-font-family);
+}
+
+.clock{
+    font-size: 10rem;
+    font-family: var(--reguler-font-family);
+    color: #ffffff;
+}
+
+i{
+    margin: 20px;
+    color: var(--project-bg);
+    font-size: 2rem;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    font-family: var(--title-font-family);
+    color: #ffffff;
+  }
+
+  a {
+    text-decoration: none;
+    color: #f1c111;
+  }
